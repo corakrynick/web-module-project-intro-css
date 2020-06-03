@@ -1,0 +1,90 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline; 
+}
+*{
+    box-sizing: border-box;
+}
+nav a{
+    margin-left:10%;
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    padding:2% 0;
+    border-radius:10px;
+    text-decoration: none;
+    } 
+ 
+.button1{
+    background-color:#FF764E;
+    color:white;
+    font-size: 1.3rem;   
+}
+.button2{
+    background-color: #5ED3EB;
+    color:white;
+    font-size: 1.3rem;
+}
+.button3{
+    background-color:#FFCD69;
+    color:white;
+    font-size: 1.4rem;
+}
+.topContent .topImg img{
+    display: inline-block;
+    width: 50%;
+    padding: 3%;
+    border-radius:50%;
+}
+.intro{
+    width:55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height:3;
+}
+.topContent{
+    display: inline-block;
+    width: 60%;
+    margin: auto;
+}
+h1{
+    font-size: 2rem;
+}
+.content{
+    margin:5%;
+    padding:2%;
+    background-color:#DDB9A3;
+    color: white;
+}
+.content p{
+    padding:1%;
+}
+.fire{
+    display:inline-block;
+}
+
+
+
+.bottomButtons a{
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    padding:2% 0;
+    border-radius:10px;
+} 
