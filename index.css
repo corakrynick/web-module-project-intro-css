@@ -40,39 +40,47 @@ nav a{
     color:white;
     font-size: 1.3rem;   
 }
+.button1:hover{
+    opacity: 0.5;
+    color: rgb(80, 29, 13);
+}
 .button2{
     background-color: #5ED3EB;
     color:white;
     font-size: 1.3rem;
+}
+.button2:hover{
+    opacity: 0.5;
+    color:rgb(32, 46, 124);
 }
 .button3{
     background-color:#FFCD69;
     color:white;
     font-size: 1.4rem;
 }
+.button3:hover{
+    opacity: 0.5;
+    color: rgb(110, 74, 8);
+}
 header .topImg img{
-    /* display: inline-block; */
-    width: 40%;
-    padding: 3%;
+    width: 25%;
+    margin: 3% 5%;
     border-radius:50%;
-    border:1px solid black;
 }
 .topImg{
     display:inline-block;
     padding: 0px;
-    border:1px solid black;
 }
 .intro{
     display:inline-block;
     text-align: center;
     line-height:3;
-    border:1px solid black;
 } 
 .topContent{
     display: inline-block;
 }
 h1{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Chelsea Market', cursive;
 }
 .content{
@@ -125,3 +133,4 @@ footer{
     border-radius:10px;
     text-decoration: none;
 } 
+
