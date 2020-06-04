@@ -20,6 +20,10 @@ vertical-align: baseline;
 }
 *{
     box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto Mono', monospace;
 }
 nav a{
     margin-left:10%;
@@ -46,25 +50,30 @@ nav a{
     color:white;
     font-size: 1.4rem;
 }
-.topContent .topImg img{
-    display: inline-block;
-    width: 50%;
+header .topImg img{
+    /* display: inline-block; */
+    width: 40%;
     padding: 3%;
     border-radius:50%;
+    border:1px solid black;
+}
+.topImg{
+    display:inline-block;
+    padding: 0px;
+    border:1px solid black;
 }
 .intro{
-    width:55%;
-    margin-left: 5%;
+    display:inline-block;
     text-align: center;
     line-height:3;
-}
+    border:1px solid black;
+} 
 .topContent{
     display: inline-block;
-    width: 60%;
-    margin: auto;
 }
 h1{
     font-size: 2rem;
+    font-family: 'Chelsea Market', cursive;
 }
 .content{
     margin:5%;
@@ -75,16 +84,44 @@ h1{
 .content p{
     padding:1%;
 }
+.fire img{
+    width: 35%;
+}
 .fire{
-    display:inline-block;
+    max-width: 100%;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.camper img{
+    width: 35%;
+}
+.camper{
+    max-width: 100%;
+    width:25%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3%;
+}
+ .footerImg img{ 
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+
+} 
+footer{
+    background-color: #F9E7DC;
+    padding: 2% 0;
 }
 
 
-
 .bottomButtons a{
+    margin-left: 10%;
     display:inline-block;
     width:20%;
     text-align:center;
     padding:2% 0;
     border-radius:10px;
+    text-decoration: none;
 } 
